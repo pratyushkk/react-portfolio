@@ -34,13 +34,13 @@ export const projects = [
   {
     name: "Watcher-Movie recommendation App",
     image: p2,
-    link: "https://github.com/pratyushkk/sumz-ai",
+    link: "https://github.com/pratyushkk/movie-recommendation-app",
     tags: ["website"],
   },
   {
     name: "Figma to React App",
     image: p3,
-    link: "https://github.com/pratyushkk/sumz-ai",
+    link: "https://github.com/pratyushkk/modern-UI-UX-landing_page",
     tags: ["to-html"],
   },
   {
