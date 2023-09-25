@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Wrapper from "./Wrapper";
 import github from "../assets/github.png";
 import linkedin from "../assets/linkedin.png";
+import logo from "../assets/logo.png";
 import man from "../assets/man.png";
 import externalLinkIcon from "../assets/external-link-icon.png";
 import gmailIcon from "../assets/email-icon.png";
@@ -41,10 +42,12 @@ const HeroBanner = () => {
           transition={{ duration: 0.7, delay: 0.25 }}
         >
           <div className="flex items-center gap-[6px]">
-            <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
+            {/* <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
               <img src={gmailIcon} alt="" className="w-[20px]" />
+            </div> */}
+            <div className="bg-[#DED1DC] text-gray-800 rounded-2xl w-32 h-8 font-medium flex justify-center items-center">
+              Pratyushkk.in
             </div>
-            <div>npratyush007@gmail.com</div>
           </div>
 
           <ul className="flex 2xl:text-[20px]">
@@ -147,7 +150,7 @@ const HeroBanner = () => {
 
         {/* PERSON BLOCK START */}
         <motion.div
-          className="w-[300px] md:w-[360px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
+          className="w-[318px] md:w-[410px] 2xl:w-[475px] absolute bottom-0 left-[50%] -translate-x-1/2"
           initial={{ y: 200, x: "-50%" }}
           animate={{ y: 0 }}
           transition={{ duration: 0.5 }}

@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="w-[35px] h-[35px] rounded-full bg-[#252525] flex justify-center items-center">
               <img src={gmailIcon} alt="" className="w-[18px]" />
             </div>
-            <div>npratyush007@gmail.com</div>
+            <div>work.pratyushkk.in@gmail.com</div>
           </div>
           <div className="flex items-center gap-3 ml-5">
             <div className="flex items-center gap-[6px]">

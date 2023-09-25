@@ -1,4 +1,4 @@
-import p1 from "./assets/project-1.png";
+import p1 from "./assets/project-1.jpeg";
 import p2 from "./assets/project-2.png";
 import p3 from "./assets/project-3.png";
 import p4 from "./assets/project-4.png";
@@ -11,8 +11,8 @@ export const filters = [
     id: "all",
   },
   {
-    name: "Dashboard",
-    id: "dashboard",
+    name: "Figma to HTML",
+    id: "to-html",
   },
   {
     name: "Mobile App",
@@ -26,33 +26,39 @@ export const filters = [
 
 export const projects = [
   {
-    name: "Join the Innovative Car Wash Service",
+    name: "Sumz AI Summery App",
     image: p1,
-    tags: ["dashboard", "mobile-app"],
-  },
-  {
-    name: "Your Luggage is in Safe Hands",
-    image: p2,
     tags: ["dashboard", "website"],
+    link: "https://github.com/pratyushkk/sumz-ai",
   },
   {
-    name: "The Art of Hiring",
+    name: "Watcher-Movie recommendation App",
+    image: p2,
+    link: "https://github.com/pratyushkk/sumz-ai",
+    tags: ["website"],
+  },
+  {
+    name: "Figma to React App",
     image: p3,
-    tags: ["mobile-app"],
+    link: "https://github.com/pratyushkk/sumz-ai",
+    tags: ["to-html"],
   },
   {
     name: "We Are Solving Global Problems",
     image: p4,
+
     tags: ["mobile-app"],
   },
   {
     name: "The English Tea Ceremony",
     image: p5,
+
     tags: ["website", "dashboard"],
   },
   {
     name: "Saving Photo Memories",
     image: p6,
+
     tags: ["website"],
   },
 ];

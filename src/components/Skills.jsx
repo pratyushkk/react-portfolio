@@ -63,28 +63,16 @@ const Skills = () => {
         <div className="flex items-end justify-between flex-wrap-reverse py-[50px] md:py-[100px] relative">
           {/* SERVICES START */}
           <div className="md:max-w-[65%] flex flex-col gap-6 md:gap-10">
-            {/* <Service
-              num="1"
-              title="Ui/Ux Design"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-              data={["Prototype", "Wireframe", "User Experience"]}
-            /> */}
             <Service
               num="1"
-              title="Web Developement"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-              data={[
-                "Prototype",
-                "Wireframe",
-                "User Experience",
-                "Prototype",
-                "Prototype",
-              ]}
+              title="HTML/CSS Conversion"
+              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              data={["Pixel Perfect", "Responsive", "Browser Compatibility"]}
             />
             <Service
               num="2"
-              title="Wordpress Development"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              title="Web Developement"
+              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
               data={[
                 "Prototype",
                 "Wireframe",
@@ -95,8 +83,8 @@ const Skills = () => {
             />
             <Service
               num="3"
-              title="React Narive Developement"
-              desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              title="Wordpress Development"
+              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
               data={[
                 "Prototype",
                 "Wireframe",
@@ -105,6 +93,18 @@ const Skills = () => {
                 "Prototype",
               ]}
             />
+            {/* <Service
+              // num="4"
+              // title="React Native Developement"
+              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              // data={[
+              //   "Prototype",
+              //   "Wireframe",
+              //   "User Experience",
+              //   "Prototype",
+              //   "Prototype",
+              // ]}
+            /> */}
           </div>
           {/* SERVICES END */}
 
