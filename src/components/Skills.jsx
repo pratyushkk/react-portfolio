@@ -50,8 +50,8 @@ const Skills = () => {
           <SkillIcon path={sk3} />
           {/*<SkillIcon path={sk4} /> */}
           <SkillIcon path={sk5} />
-          {/* <SkillIcon path={sk6} />
-          <SkillIcon path={sk7} /> */}
+          <SkillIcon path={sk6} />
+          <SkillIcon path={sk7} />
           <SkillIcon path={sk8} />
           <SkillIcon path={sk9} />
           <SkillIcon path={sk10} />
@@ -73,38 +73,25 @@ const Skills = () => {
               num="2"
               title="Web Developement"
               // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-              data={[
-                "Prototype",
-                "Wireframe",
-                "User Experience",
-                "Prototype",
-                "Prototype",
-              ]}
+              data={["Prototype", "Wireframe", "User Experience"]}
             />
             <Service
               num="3"
               title="Wordpress Development"
               // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
+              data={["Prototype", "Wireframe", "User Experience"]}
+            />
+            <Service
+              num="4"
+              title="Shopify Developement"
+              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
               data={[
                 "Prototype",
-                "Wireframe",
-                "User Experience",
-                "Prototype",
-                "Prototype",
+                "Custom Theme",
+                "API Integration",
+                "Optimization",
               ]}
             />
-            {/* <Service
-              // num="4"
-              // title="React Native Developement"
-              // desc="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it"
-              // data={[
-              //   "Prototype",
-              //   "Wireframe",
-              //   "User Experience",
-              //   "Prototype",
-              //   "Prototype",
-              // ]}
-            /> */}
           </div>
           {/* SERVICES END */}
 
